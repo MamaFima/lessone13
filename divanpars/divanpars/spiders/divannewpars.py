@@ -14,5 +14,4 @@ class DivannewparsSpider(scrapy.Spider):
                 'price' : divan.css('div.pY3d2 span::text').get(),
                 'url' : divan.css('a').attrib['href']
 
-
             }
