@@ -11,6 +11,9 @@ BOT_NAME = "divan_svet_pars"
 
 SPIDER_MODULES = ["divan_svet_pars.spiders"]
 NEWSPIDER_MODULE = "divan_svet_pars.spiders"
+ITEM_PIPELINES = {
+    'divan_svet_pars.pipelines.JsonWriterPipeline': 1,
+}
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
