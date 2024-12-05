@@ -29,21 +29,6 @@
 - **Google Chrome**: браузер по умолчанию для выполнения парсинга.
 - **WebDriver для Chrome**: обеспечивает интерфейс между `selenium` и браузером.
 
-## Установка и запуск
-1. Установите зависимости:
-   ```bash
-   pip install selenium
-   ```
-2. Установите [Google Chrome](https://www.google.com/intl/ru/chrome/) и соответствующий [ChromeDriver](https://sites.google.com/chromium.org/driver/).
-3. Скачайте репозиторий:
-   ```bash
-   git clone https://github.com/<your-repo>/parsers-wikipedia.git
-   cd parsers-wikipedia
-   ```
-4. Запустите нужный скрипт:
-   ```bash
-   python <имя_скрипта>.py
-   ```
 
 ## Примечания
 - Скрипты требуют установленного браузера Chrome и совместимого драйвера ChromeDriver.
